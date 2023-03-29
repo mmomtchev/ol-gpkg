@@ -10,7 +10,7 @@ import { GPKG } from '../../src/geopackage.js';
 
 export default async function () {
   const gpkg = new GPKG({
-    url: 'http://sokol.garga/StLouis.gpkg'
+    url: 'https://velivole.b-cdn.net/StLouis.gpkg'
   });
   await gpkg.open();
   return new Map({
