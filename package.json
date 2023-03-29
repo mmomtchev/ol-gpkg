@@ -29,7 +29,7 @@
   "dependencies": {
     "@ngageoint/geopackage": "^5.0.2-beta",
     "comlink": "^4.4.1",
-    "sqlite-wasm-http": "^1.0.0"
+    "sqlite-wasm-http": "^1.1.0"
   },
   "peerDependencies": {
     "ol": ">=7.0.0"
