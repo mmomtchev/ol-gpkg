@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "webpack serve --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:examples": "webpack --mode production",
+    "deploy:ghpages": "node scripts/publish-ghpages.cjs"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.16",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "ol": "^7.3.0",
